@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MyGallery.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="image-container">
+            <img src="nico.png" alt="Profilepic" id="profilepic">
+        </div>
+        <div id="burger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        
+        <ul id="nav-links" class="hidden">
+            <li><a href="index.html">My Profile</a></li>
+            <li><a href="AboutMe.html">About Me</a></li>
+            <li><a href="MyGallery.html">My Gallery</a></li>
+            <li><a href="CallMe.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div>
+        <H1>
+            My Gallery
+        </H1>
+    </div>
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="1mewithwaifuu.jpg" alt="Image 1">
+            <figcaption>Date Time with my Wife</figcaption>
+        </div>
+        <div class="gallery-item">
+            <img src="1mewithwaif.jpg" alt="Image 2">
+            <figcaption>Date at the Beach</figcaption>
+        </div>
+        <div class="gallery-item">
+            <img src="1meweding.jpg" alt="Image 3">
+            <figcaption>My Lovely Wedding Day</figcaption>
+        </div>
+        <div class="gallery-item">
+            <img src="1meingym.jpg" alt="Image 4">
+            <figcaption>Working Out</figcaption>
+        </div>
+        <div class="gallery-item">
+            <img src="1me.jpg" alt="Image 5">
+            <figcaption>Shy type ng Konti</figcaption>
+        </div>
+        <div class="gallery-item">
+            <img src="1mewithfriedns.jpg" alt="Image 6">
+            <figcaption>Fun Times with My Friends</figcaption>
+        </div>
+        <div class="gallery-item">
+            <img src="1mewithgabandjm.png" alt="Image 7">
+            <figcaption>Ang aking Anak at Friend</figcaption>
+        </div>
+        <div class="gallery-item">
+            <img src="1mewithfriends.jpg" alt="Image 8">
+            <figcaption>Brgy. Patag Viewdeck</figcaption>
+        </div>
+        <div class="gallery-item">
+            <img src="1meandjm.jpg" alt="Image 9">
+            <figcaption>Poging Lamig</figcaption>
+        </div>
+    </section>
+    <script>
+        const burgerMenu = document.getElementById('burger-menu');
+        const navLinks = document.getElementById('nav-links');
+    
+        burgerMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

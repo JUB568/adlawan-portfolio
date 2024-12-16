@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="AboutMe.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="image-container">
+            <img src="nico.png" alt="Profilepic" id="profilepic">
+        </div>
+        <div id="burger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <!-- Navigation Links inside the burger menu -->
+        <ul id="nav-links" class="hidden">
+            <li><a href="index.html">My Profile</a></li>
+            <li><a href="AboutMe.html">About Me</a></li>
+            <li><a href="MyGallery.html">My Gallery</a></li>
+            <li><a href="CallMe.html">Contact Me</a></li>
+        </ul>
+    </nav>
+   
+    <section class="panel panel-1">
+        <div class="image">
+            <img src="1meweding.jpg" alt="Wedding Image">
+        </div>
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I am Levnicolayevich Cruz Adlawan, 24 years old, Married to my lovely Wife Jennie D. Adlawan. I am a student of Camarines Norte State College and taking the course Bachelor of Science in Information Technology, currently in 2nd year block C. <br><br>
+            So why did I chose Information Technology? <br> <br>
+            I am very interested in technology and computers since I was a little boy, that's what inspired me to take this course, also to have a nice job for my family, and I’m excited to use what I learn in my future jobs and in my everyday life. <br><br>
+            As I continue my education, I hope to combine my skills with my values to make a positive difference in both the technological world and in our real life.
+            </p>
+        </div>
+    </section>
+    <section class="panel panel-2">
+        <div class = "content">
+            <h2>My Personality</h2>
+            <p>I am an extroverted person and very sociable. I enjoy spending time with my friends, whether it's hanging out, playing sports, or just having a good conversation. I’m always open to meeting new people and sharing experiences that help me build lasting friendships.  Being around people inspires me to grow, learn, and have fun. I also value loyalty, honesty and respect with my loved ones and also my friends, believing that true friendships are built on trust and mutual respect.</p>
+        </div>
+        <div class ="image">
+            <img src="1me.jpg" alt="me">
+        </div>
+        
+    </section>
+    <section class="panel panel-1">
+        <div class="image">
+            <img src="1mewithgabandjm.png" alt="Wedding Image">
+        </div>
+        <div class="content">
+            <h2>My Hobbies</h2>
+            <p>I love to play volleyball with my friends, and I also love playing online games with them. Actually I have many hobbies depending on mood. Sometimes I just want to play Volleyball, sometimes play computer games, sometimes go outside and daydream and sometimes play with my pets at home.
+            </p>
+        </div>
+    </section>
+    <script>
+        const burgerMenu = document.getElementById('burger-menu');
+        const navLinks = document.getElementById('nav-links');
+    
+        burgerMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('hidden');
+        });
+    </script>
+    
+   
+</body>
+</html>
